@@ -2,7 +2,7 @@
 Objetivo: ler planilhas do exel com mais de uma aba e Retornar um Json.
 </br></br></br>
 <h1>Para Rodar o projeto</h1>
-<p>Clicke duas vezes no arquivo start.exe</p>
+<p>Click duas vezes no arquivo start.exe</p>
 </br></br>
 <h1>Tecnologias</h1>
 <p>Node.js</p>
