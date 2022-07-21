@@ -38,5 +38,16 @@ abaDaVez.eachRow(function(row, rowNumero) {
       }
       console.log("Arquivo json planilha salvo!");
     }); 
-    </code>
+    
   }
+</code>
+
+</br>
+
+<h1>Resultados</h1>
+</br>
+![alt text](https://github.com/acebeR/ler_planilha/blob/main/imgs/Passo%201.PNG?raw=true)
+</br>
+![alt text](https://github.com/acebeR/ler_planilha/blob/main/imgs/Passo%202.PNG?raw=true)
+</br>
+![alt text](https://github.com/acebeR/ler_planilha/blob/main/imgs/rodando.PNG?raw=true)
