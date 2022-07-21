@@ -46,8 +46,13 @@ abaDaVez.eachRow(function(row, rowNumero) {
 
 <h1>Resultados</h1>
 </br>
+
 ![alt text](https://github.com/acebeR/ler_planilha/blob/main/imgs/Passo%201.png?raw=true)
+
 </br>
+
 ![alt text](https://github.com/acebeR/ler_planilha/blob/main/imgs/Passo%202.png?raw=true)
+
 </br>
+
 ![alt text](https://github.com/acebeR/ler_planilha/blob/main/imgs/rodando.png?raw=true)
