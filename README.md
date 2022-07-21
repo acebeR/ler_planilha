@@ -5,19 +5,21 @@ Objetivo: ler planilhas do exel com mais de uma aba e Retornar um Json.
 <p>Click duas vezes no arquivo start.exe</p>
 </br></br>
 <h1>Tecnologias</h1>
-<p>Node.js</p>
-<p>JavaScripty</p>
+<p> - Node.js</p>
+<p> - JavaScripty</p>
 </br></br>
 <h1>Código Principal</h1>
-´´´
-    var planilha = await processLineByLine();
-    var abaDaVez = planilha.getWorksheet(texto);
-    abaDaVez.eachRow(function(row, rowNumero) {
-      console.log(row);
-    });
-´´´
+<code>
+var planilha = await processLineByLine(); 
+var abaDaVez = planilha.getWorksheet(texto);
+abaDaVez.eachRow(function(row, rowNumero) {
+  console.log(row);
+});
+</code>
 </br>
+
 <h1>Dependências</h1>
+<code>
   "dependencies": {
     "exceljs": "^4.2.1",
     "js-xlsx": "^0.8.22",
@@ -25,8 +27,10 @@ Objetivo: ler planilhas do exel com mais de uma aba e Retornar um Json.
     "workbook": "^1.1.3",
     "dotenv": "^8.2.0"
   }
+</code>
 </br>
 <h1>Para Criar Arquivo</h1>
+<code>
   function criarArquivoJsonPlanilha(json){
     fs.writeFile("saidaJson.txt",JSON.stringify(json), function(erro) {
       if(erro) {
@@ -34,4 +38,5 @@ Objetivo: ler planilhas do exel com mais de uma aba e Retornar um Json.
       }
       console.log("Arquivo json planilha salvo!");
     }); 
+    </code>
   }
